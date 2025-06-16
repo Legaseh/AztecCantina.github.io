@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kuliner Meksiko</title>
+    <link href="/Gambar/logo.png" rel="icon" type="image/x-icon">
+    <link rel="stylesheet" href="KulinerStyle.css">
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js"></script>
+    <script src="KulinerJs.js" defer></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="itemHeader">
+                <div class="cardHeader1" id="samain"></div>
+                <div class="cardHeader2" id="samain"></div>
+                <div class="cardHeader3" id="samain"></div>
+            </div>
+            <div>
+                <h1 class="judul-animasi">KULINER</h1>
+                <h1 class="judul-animasiMeksiko">MEKSIKO</h1>
+            </div>
+            <div class="itemHeader">
+                <div class="cardHeader33" id="samain"></div>
+                <div class="cardHeader22" id="samain"></div>
+                <div class="cardHeader11" id="samain"></div>
+            </div>
+        </div>
+        <div class="nav" id="navbar">
+            <ul class="listNav">
+                <div class="navkiri">
+                    <li class="listIlang"><img src="/Gambar/logo.png" alt="Logo" class="logo"></li> 
+                </div>
+                <div class="navtengah">
+                    <li><a href="">Home</a></li>
+                    <li><a href="Food.html">Food</a></li>
+                    <li><a href="Resep Rahasiaaaa.html">Resep</a></li>
+                    <li><a href="GameMakan.html">Games</a></li>
+                </div>
+                <div class="navkanan">
+                    <li class="listIlang"><a href=""><model-viewer class="taco3d" id="taco3d_left" src="taco.glb" alt="Model 3D Taco Kiri"></model-viewer></a></li>
+                </div>
+            </ul>
+        </div>
+        <div class="main">
+            <div class="isi">
+                <div class="isiKiri">
+                    <h2>Sejarah & Pengaruh Budaya</h2>
+                    <div class="info1">
+                        <span>Masakan Meksiko berakar dari peradaban Mesoamerika kuno. <b>Jagung (corn), kacang (beans)</b>, dan <b>cabai (chilis)</b> merupakan bahan pokok sejak ribuan tahun lalu. Bangsa Aztek dan Maya menanam jagung, kacang, dan squash, serta menambahkan cabai dan tomat dalam makanan sehari-hari. UNESCO bahkan menyebut diet ini sebagai “basis of the system” warisan kuliner Meksiko, fondasi yang menyatukan masyarakat lokal. <br></span>
+                    </div>
+                    <div class="info1">
+                        <span>Setelah penaklukan Spanyol, masakan Meksiko mengalami <b>fusi unik</b> dengan bahan-bahan Eropa. Bangsa Spanyol membawa gandum, daging sapi dan babi, keju, serta rempah-rempah seperti kayu manis dan almond. Contohnya, <i>mole</i> - saus tebal berlapis rasa - menggabungkan cacao Mesoamerika dengan rempah-rempah Spanyol. Keju segar (queso fresco) dan metode memasak seperti goreng dan panggang juga diperkenalkan oleh Spanyol. Hasil akhirnya adalah cita rasa berlapis (<i>“deep flavor”</i>) yang menjadi ciri khas kuliner Meksiko modern. Secara keseluruhan, resep-resep tradisional Meksiko menunjukkan perpaduan bahan pra-Kolumbus dan inovasi kolonial Spanyol, menciptakan identitas gastronomi yang kaya.
+                    </div> 
+                    <div class="sumber">
+                        <a href="https://en.wikipedia.org/wiki/Aztec_cuisine#:~:text=Aztec%20staple%20foods%20included%20maize,vegetarian%2C%20the%20Aztecs%20consumed%20insects" target="_blank" rel="noopener noreferrer"><button>📚Wiki</button></a>
+                        <a href="https://ich.unesco.org/en/RL/traditional-mexican-cuisine-ancestral-ongoing-community-culture-the-michoacan-paradigm-00400#:~:text=Traditional%20Mexican%20cuisine%20is%20a,Native" target="_blank" rel="noopener noreferrer"><button>🏛️Unesco</button></a>
+                        <a href="https://ich.unesco.org/en/RL/traditional-mexican-cuisine-ancestral-ongoing-community-culture-the-michoacan-paradigm-00400#:~:text=Traditional%20Mexican%20cuisine%20is%20a,Native" target="_blank" rel="noopener noreferrer"><button>🌍Unesco</button></a>
+                        <a href="https://www.britannica.com/topic/taco" target="_blank" rel="noopener noreferrer"><button>📖Britannica</button></a>
+                        <a href="https://www.mexicohistorico.com/paginas/The-Influence-of-Spanish-Culture-on-Mexican-Cuisine-During-the-Colonial-Period.html#:~:text=One%20of%20the%20most%20notable,of%20flavor%20and%20cultural%20significance" target="_blank" rel="noopener noreferrer"><button>🏛️Mexicohistorico</button></a>
+                        <a href="https://www.britannica.com/topic/mole-sauce" target="_blank" rel="noopener noreferrer"><button>🍲Britannica-Mole</button></a>
+                    </div>
+                </div>
+                <div class="isiKanan"></div>
+            </div>
+            <div class="kata_kata">
+                <h2>
+                    Tempat-tempat makan ikonik di Meksiko yang wajib kamu cobain!  
+                </h2>
+            </div>
+            <div class="card-container" id="card-container"></div>
+
+            <!-- Nav Kiri Kanan -->
+            <div class="card-navigation">
+                <button class="prev-btn" id="geser">&lt;</button>
+                <button class="next-btn" id="geser">&gt;</button>
+            </div>
+        </div>
+        <div class="footer" >
+            <div class="container_footer">
+                <div class="grid-item1">
+                    <p><img src="/Gambar/logo.png" alt="logo" class="logo1"></p>
+                </div>
+                <div class="grid-item2">
+                    <p> Aztec Cantina - a WebDas project. <br>
+                        © Webdesign by 2472026 - 247202 - 247202 <br> <br>
+                        Bandung, Indonesia. <br><br>
+                        Contact us: <br>
+                        2472026@maranatha.ac.id <br>
+                        +62-8956-0430-0898 <br> <br>
+                        FOOD FROM THE EARTH
+                    </p>
+                </div>
+                <div class="grid-item">
+                    <p>
+                        Find us on SoMe here: <br>
+                        <h3>Facebook</h3>
+                        <h3>Instagram</h3>
+                        <a href="kritiksaran.html" target="_blank">Criticism and Suggestions</a>
+                    </p>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 TUBES WEBDAS KULINER MEKSIKO</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
